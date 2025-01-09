@@ -1,9 +1,15 @@
 [project]
 name = "wherecanwego"
 version = "0.1.0"
-description = "Add your description here"
+description = "See which countries you and your friends can all travel to"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "streamlit>=1.41.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+    "isort>=5.13.2",
 ]
