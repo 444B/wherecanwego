@@ -16,12 +16,13 @@ git checkout -b your-feature-name
 2. Install and setup uv:
 ```sh
 pip install uv
-uv venv .venv --python 3.10.16
+uv venv .venv --python 3.10
 source .venv/bin/activate
 ```
 3. Install dependencies:
 ```sh
 uv pip install -e ".[dev]"
+uv sync
 ```
 4. Run the app:
 ```sh
