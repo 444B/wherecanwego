@@ -1,5 +1,16 @@
 # Contributing to WhereCanWeGo
 
+
+---
+
+<h3 align="center">
+  🎈 <a href="https://wherecanwego.streamlit.app/">Live Demo</a> 🎈
+</h3>
+
+---
+
+Check out the live Demo!
+
 ## Getting Started
 1. Fork and clone:
 ```sh
